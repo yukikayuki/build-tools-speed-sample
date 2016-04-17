@@ -1,4 +1,4 @@
-# build-tools-speed-example
+# build-tools-speed-sample
 
 ## [rollup.js](http://rollupjs.org/)
 
