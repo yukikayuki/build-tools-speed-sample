@@ -1,0 +1,24 @@
+{
+  "name": "time-rollup",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prerollup": "cp -R ../src/ target",
+    "rollup": "rollup -c",
+    "rollup:time": "time npm run rollup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015-rollup": "^1.1.1",
+    "rollup": "^0.25.8",
+    "rollup-plugin-babel": "^2.4.0",
+    "rollup-plugin-commonjs": "^2.2.1",
+    "rollup-plugin-node-resolve": "^1.5.0"
+  },
+  "dependencies": {
+    "jquery": "^2.2.3"
+  }
+}
