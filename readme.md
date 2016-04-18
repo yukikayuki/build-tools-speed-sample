@@ -5,7 +5,7 @@
 ```
 cd rollup
 npm install
-npm run rollup:time
+npm run start
 ```
 
 ## [browserify](http://browserify.org/)
@@ -13,7 +13,7 @@ npm run rollup:time
 ```
 cd browserify
 npm install
-npm run browserify:time
+npm run start
 ```
 
 ## [webpack](https://webpack.github.io/)
@@ -21,5 +21,5 @@ npm run browserify:time
 ```
 cd webpack
 npm install
-npm run webpack:time
+npm run start
 ```
