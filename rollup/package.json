@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "npm run rollup:time",
     "prerollup": "cp -R ../src/ target",
     "rollup": "rollup -c",
     "rollup:time": "time npm run rollup",

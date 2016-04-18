@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "npm run webpack:time",
     "prewebpack": "cp -R ../src/ target",
     "webpack": "webpack",
     "webpack:time": "time npm run webpack",

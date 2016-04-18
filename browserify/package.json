@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "npm run browserify:time",
     "prebrowserify": "cp -R ../src/ target && mkdir -p dist",
     "browserify": "browserify target/main.js -t babelify --outfile dist/bundle.js",
     "browserify:time": "time npm run browserify",
